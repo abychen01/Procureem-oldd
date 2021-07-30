@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root prefHeight="40.0" prefWidth="115.0" type="javafx.scene.control.ListCell" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <graphic>
+        <VBox>
+            <children>
+                <VBox>
+                    <children>
+                        <Label fx:id="title" text="Title">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Label>
+                        <Label fx:id="message" text="message" />
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </graphic>
+</fx:root>
